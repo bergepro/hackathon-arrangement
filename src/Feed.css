@@ -1,0 +1,20 @@
+.feed {
+    display:flex;
+    flex-wrap:wrap;
+    font-size: large;
+    
+}
+.feed__arrangement {
+    display:flex;
+    flex-wrap:wrap;
+    font-size: large;
+    flex-direction: column;
+    
+    
+}
+.feed__Kommentarfelt {
+    display:flex;
+    flex-wrap:wrap;
+    font-size: large;
+    align-items: center;
+}

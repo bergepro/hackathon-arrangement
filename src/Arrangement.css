@@ -1,0 +1,39 @@
+.arrangement {
+    position:relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:400px;
+    height: 240px;
+    box-shadow: 0px 5px 17px -7px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    margin:20px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    flex:auto;
+    display:flex; 
+    flex-wrap: wrap;     
+}
+
+.arrangement:hover {
+    transform: scale(1.07);
+}
+.arrangement__avatar {
+    margin: 10px;
+    border: 5px solid rgb(97,69,81);
+}
+
+.arrangement > h4 {
+    position:absolute;
+    bottom:20px;
+    left: 20px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.arrangement > h3 {
+    position:absolute;
+    top:20px;
+    right: 20px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
